@@ -1,3 +1,3 @@
-# template-ts
+# CSS World
 
-a universal template for typescript
+A css knowledge collection
