@@ -29,9 +29,6 @@
     "release": "release-it",
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
-  "dependencies": {
-    "vite-plugin-markdown-preview": "^1.0.3"
-  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
     "@commitlint/cli": "^17.4.2",
@@ -46,6 +43,7 @@
     "release-it": "^15.6.0",
     "simple-git-hooks": "^2.8.1",
     "typescript": "^4.9.5",
+    "vite-plugin-markdown-preview": "^1.0.3",
     "vitepress": "1.0.0-alpha.45",
     "vue": "^3.2.47"
   },
