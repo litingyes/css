@@ -1,6 +1,10 @@
 {
   "extends": "@tsconfig/node-lts-strictest/tsconfig.json",
   "include": [
-    "./src/**/*"
+    "./docs/.vitepress/**/*"
+  ],
+  "exclude": [
+    "./docs/.vitepress/cache/**/*",
+    "./docs/.vitepress/dist/**/*"
   ]
 }

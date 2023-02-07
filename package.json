@@ -29,6 +29,9 @@
     "release": "release-it",
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
+  "dependencies": {
+    "vite-plugin-markdown-preview": "^1.0.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
     "@commitlint/cli": "^17.4.2",
