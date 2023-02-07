@@ -1,10 +1,10 @@
 ---
 layout: home
 hero:
-  name: CSS World
-  tagline:  A css knowledge collection
+  name: CSS 世界
+  tagline:  一个CSS知识合集
   actions:
     - theme: alt
-      text: View on GitHub
+      text: 在GitHub上查看
       link: https://github.com/liting-yes/css
 ---
