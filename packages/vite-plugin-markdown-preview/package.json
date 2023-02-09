@@ -1,0 +1,58 @@
+{
+  "name": "vite-plugin-markdown-preview",
+  "type": "module",
+  "version": "1.0.3",
+  "description": "",
+  "author": "jaskang",
+  "license": "MIT",
+  "homepage": "https://github.com/jaskang/vite-plugin-markdown-preview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaskang/vite-plugin-markdown-preview.git",
+    "directory": "packages/plugin-vue"
+  },
+  "bugs": {
+    "url": "https://github.com/jaskang/vite-plugin-markdown-preview/issues"
+  },
+  "keywords": [],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./component": "./component/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "component"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "pnpm build",
+    "release": "release-it",
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "mdast-util-from-markdown": "^1.2.0",
+    "mdast-util-frontmatter": "^1.0.0",
+    "mdast-util-to-markdown": "^1.5.0",
+    "unist-util-visit": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/mdast": "^3.0.10"
+  }
+}

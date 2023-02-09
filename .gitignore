@@ -109,3 +109,5 @@ cache
 .DS_Store
 
 .idea
+
+!packages/vite-plugin-markdown-preview/dist
