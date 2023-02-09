@@ -5,3 +5,9 @@
 .VPSidebar, .VPContent, .VPFooter {
   font-family: 'LXGW WenKai';
 }
+
+@for $i from 1 through 6 {
+ h#{$i} {
+  margin: calc((28 - $i * 4) * 1px) 0;
+ }
+}
