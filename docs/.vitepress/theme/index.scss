@@ -11,3 +11,11 @@
   margin: calc((28 - $i * 4) * 1px) 0;
  }
 }
+
+.VPSidebar {
+  @for $i from 1 through 6 {
+    h#{$i} {
+     margin: 0;
+    }
+   }
+}
