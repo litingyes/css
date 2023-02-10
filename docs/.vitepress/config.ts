@@ -40,11 +40,20 @@ export default defineConfig({
         nav: [
           {
             text: 'Demo',
-            link: '/demo/interact/neon',
+            link: '/demo/animation/typewriter',
           },
         ],
         sidebar: {
           '/demo/': [
+            {
+              text: 'Animation',
+              items: [
+                {
+                  text: 'typewriter',
+                  link: '/demo/animation/typewriter',
+                },
+              ],
+            },
             {
               text: 'Interact',
               items: [
@@ -70,11 +79,20 @@ export default defineConfig({
         nav: [
           {
             text: '演示',
-            link: '/zh/demo/interact/neon',
+            link: '/zh/demo/animation/typewriter',
           },
         ],
         sidebar: {
           '/zh/demo/': [
+            {
+              text: '动画效果',
+              items: [
+                {
+                  text: '打字机',
+                  link: '/zh/demo/animation/typewriter',
+                },
+              ],
+            },
             {
               text: '交互',
               items: [
