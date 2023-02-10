@@ -1,4 +1,4 @@
-# Hover: 霓虹
+# 交互效果: 霓虹
 
 ```vue preview
 <template>

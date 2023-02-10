@@ -94,7 +94,7 @@ export default defineConfig({
               ],
             },
             {
-              text: '交互',
+              text: '交互效果',
               items: [
                 {
                   text: '霓虹',
