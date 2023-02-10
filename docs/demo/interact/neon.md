@@ -44,7 +44,7 @@
     box-shadow: 12px 12px 99px 12px #618A6A;
   }
 
-    .interact-neon:nth-child(2) {
+  .interact-neon:nth-child(2) {
     color: #526F34;
     border: 1px solid #526F34;
   }
@@ -55,7 +55,7 @@
     box-shadow: 12px 12px 99px 12px #526F34;
   }
 
-    .interact-neon:nth-child(3) {
+  .interact-neon:nth-child(3) {
     color: #83846C;
     border: 1px solid #83846C;
   }
