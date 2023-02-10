@@ -5,7 +5,7 @@
     "./shims.d.ts"
   ],
   "exclude": [
-    "./docs/.vitepress/cache/**/*",
-    "./docs/.vitepress/dist/**/*"
+    "cache",
+    "dist"
   ]
 }
