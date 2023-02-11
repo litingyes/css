@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
+import svgLoader from 'vite-svg-loader'
 
 export default defineConfig({
   title: 'CSS World',
@@ -8,7 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   vite: {
-    plugins: [MarkdownPreview()],
+    plugins: [MarkdownPreview(), svgLoader({ defaultImport: 'component' })],
   },
   head: [
     [

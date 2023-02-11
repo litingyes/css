@@ -36,6 +36,7 @@
     "@commitlint/cz-commitlint": "^17.4.2",
     "@release-it/conventional-changelog": "^5.1.1",
     "@tsconfig/node-lts-strictest": "^18.12.1",
+    "@vueuse/core": "^9.12.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.32.0",
     "inquirer": "8",
@@ -45,6 +46,7 @@
     "simple-git-hooks": "^2.8.1",
     "typescript": "^4.9.5",
     "vite-plugin-markdown-preview": "workspace:^1.0.3",
+    "vite-svg-loader": "^4.0.0",
     "vitepress": "1.0.0-alpha.45",
     "vue": "^3.2.47"
   },
