@@ -19,3 +19,9 @@
     }
    }
 }
+
+.dark {
+  .code-preview__icon {
+    color: var(--vp-c-text-dark-2);
+  }
+}

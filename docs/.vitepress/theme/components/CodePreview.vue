@@ -28,7 +28,7 @@ const juejinLinkKey = Object.keys(juejinLinks).find(link => location.value.pathn
     </div>
 
     <div class="code-preview__btns">
-      <a v-if="juejinLinkKey" :href="juejinLinks[juejinLinkKey]" target="_blank">
+      <a v-if="juejinLinkKey" :href="juejinLinks[juejinLinkKey]!" target="_blank">
         <IconJuejin class="code-preview__icon" />
       </a>
       <IconCopied v-if="copied" class="code-preview__icon" />
@@ -41,7 +41,7 @@ const juejinLinkKey = Object.keys(juejinLinks).find(link => location.value.pathn
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .code-preview {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   border-radius: 8px;
