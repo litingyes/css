@@ -59,6 +59,10 @@ export default defineConfig({
               text: 'Animation',
               items: [
                 {
+                  text: 'spin',
+                  link: '/demo/animation/spin',
+                },
+                {
                   text: 'typewriter',
                   link: '/demo/animation/typewriter',
                 },
@@ -106,6 +110,10 @@ export default defineConfig({
             {
               text: '动画效果',
               items: [
+                {
+                  text: '自旋',
+                  link: '/zh/demo/animation/spin',
+                },
                 {
                   text: '打字机',
                   link: '/zh/demo/animation/typewriter',
