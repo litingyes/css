@@ -41,11 +41,20 @@ export default defineConfig({
         nav: [
           {
             text: 'Demo',
-            link: '/demo/animation/typewriter',
+            link: '/demo/basic/cloud',
           },
         ],
         sidebar: {
           '/demo/': [
+            {
+              text: 'Basic',
+              items: [
+                {
+                  text: 'cloud',
+                  link: '/demo/basic/cloud',
+                },
+              ],
+            },
             {
               text: 'Animation',
               items: [
@@ -80,11 +89,20 @@ export default defineConfig({
         nav: [
           {
             text: '演示',
-            link: '/zh/demo/animation/typewriter',
+            link: '/zh/demo/basic/cloud',
           },
         ],
         sidebar: {
           '/zh/demo/': [
+            {
+              text: '基础',
+              items: [
+                {
+                  text: '云',
+                  link: '/zh/demo/basic/cloud',
+                },
+              ],
+            },
             {
               text: '动画效果',
               items: [
