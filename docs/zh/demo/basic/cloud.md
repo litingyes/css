@@ -6,10 +6,6 @@
 </template>
 
 <style>
-.code-preview__preview {
-  background: skyblue;
-}
-
 .basic-cloud {
   color: white;
   margin: 56px 24px;
