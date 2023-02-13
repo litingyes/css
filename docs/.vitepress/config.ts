@@ -54,6 +54,10 @@ export default defineConfig({
               text: 'Interact',
               items: [
                 {
+                  text: 'dynamic border',
+                  link: '/demo/interact/dynamic-border',
+                },
+                {
                   text: 'neon',
                   link: '/demo/interact/neon',
                 },
@@ -105,6 +109,10 @@ export default defineConfig({
             {
               text: '交互效果',
               items: [
+                {
+                  text: '动态边框',
+                  link: '/zh/demo/interact/dynamic-border',
+                },
                 {
                   text: '霓虹',
                   link: '/zh/demo/interact/neon',
