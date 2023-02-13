@@ -11,24 +11,6 @@ export default defineConfig({
   vite: {
     plugins: [MarkdownPreview(), svgLoader({ defaultImport: 'component' })],
   },
-  head: [
-    [
-      'link',
-      {
-        rel: 'prefetch',
-        as: 'font',
-        href: 'https://unpkg.com/@chinese-fonts/lxgwwenkai@1.1.0/dist/LXGWWenKai-Bold/result.css',
-      },
-    ],
-    [
-      'link',
-      {
-        rel: 'prefetch',
-        as: 'font',
-        href: 'https://unpkg.com/@chinese-fonts/dyh@1.1.0/dist/SmileySans-Oblique/result.css',
-      },
-    ],
-  ],
   locales: {
     root: {
       label: 'English',
