@@ -54,6 +54,10 @@ export default defineConfig({
               text: 'Interact',
               items: [
                 {
+                  text: 'dynamic background color',
+                  link: '/demo/interact/dynamic-background-color',
+                },
+                {
                   text: 'dynamic border',
                   link: '/demo/interact/dynamic-border',
                 },
@@ -109,6 +113,10 @@ export default defineConfig({
             {
               text: '交互效果',
               items: [
+                {
+                  text: '动态背景',
+                  link: '/zh/demo/interact/dynamic-background-color',
+                },
                 {
                   text: '动态边框',
                   link: '/zh/demo/interact/dynamic-border',
