@@ -12,6 +12,12 @@
    }
 }
 
+.VPFeature {
+  .title {
+    margin: 0;
+  }
+}
+
 .dark {
   .code-preview__icon {
     color: var(--vp-c-text-dark-2);
