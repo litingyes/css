@@ -35,6 +35,10 @@ export default defineConfig({
                   text: 'cloud',
                   link: '/demo/basic/cloud',
                 },
+                {
+                  text: 'dazzle',
+                  link: '/demo/basic/dazzle',
+                },
               ],
             },
             {
@@ -94,6 +98,10 @@ export default defineConfig({
                 {
                   text: '云',
                   link: '/zh/demo/basic/cloud',
+                },
+                {
+                  text: '炫彩',
+                  link: '/zh/demo/basic/dazzle',
                 },
               ],
             },
