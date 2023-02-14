@@ -46,10 +46,11 @@ const juejinLinkKey = Object.keys(juejinLinks).find(link => location.value.pathn
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   border-radius: 8px;
   overflow: hidden;
+  background: #60a5fa;
 
   &__preview {
     padding: 16px 8px;
-    background: #a5f3fc;
+    background: #93c5fd;
   }
 
   &__btns {
@@ -80,6 +81,10 @@ const juejinLinkKey = Object.keys(juejinLinks).find(link => location.value.pathn
 
     &.visible {
       max-height: 10000px;
+    }
+
+    .language-vue {
+      margin: 0 !important;
     }
   }
 }
