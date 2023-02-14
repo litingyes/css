@@ -39,6 +39,10 @@ export default defineConfig({
                   text: 'dazzle',
                   link: '/demo/basic/dazzle',
                 },
+                {
+                  text: 'palette',
+                  link: '/demo/basic/palette',
+                },
               ],
             },
             {
@@ -102,6 +106,10 @@ export default defineConfig({
                 {
                   text: '炫彩',
                   link: '/zh/demo/basic/dazzle',
+                },
+                {
+                  text: '色盘',
+                  link: '/zh/demo/basic/palette',
                 },
               ],
             },
