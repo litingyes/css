@@ -43,6 +43,10 @@ export default defineConfig({
                   text: 'palette',
                   link: '/demo/basic/palette',
                 },
+                {
+                  text: 'shadow',
+                  link: '/demo/basic/shadow',
+                },
               ],
             },
             {
@@ -114,6 +118,10 @@ export default defineConfig({
                 {
                   text: '色盘',
                   link: '/zh/demo/basic/palette',
+                },
+                {
+                  text: '阴影',
+                  link: '/zh/demo/basic/shadow',
                 },
               ],
             },
