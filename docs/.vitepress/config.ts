@@ -49,6 +49,10 @@ export default defineConfig({
               text: 'Animation',
               items: [
                 {
+                  text: 'horse racing light',
+                  link: '/demo/animation/horse-racing-light',
+                },
+                {
                   text: 'spin',
                   link: '/demo/animation/spin',
                 },
@@ -116,6 +120,10 @@ export default defineConfig({
             {
               text: '动画效果',
               items: [
+                {
+                  text: '走马灯',
+                  link: '/zh/demo/animation/horse-racing-light',
+                },
                 {
                   text: '自旋',
                   link: '/zh/demo/animation/spin',
