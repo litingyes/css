@@ -4,7 +4,7 @@
 <template>
   <div class="animation-typewriter__container">
     <div class="animation-typewriter">
-      Css World
+      CSS Planet
     </div>
   </div>
 </template>

@@ -1,8 +1,11 @@
 ---
 layout: home
 hero:
-  name: CSS 世界
+  name: CSS 星球
   tagline:  一个CSS知识合集
+  image:
+    src: /planet.svg
+    alt: CSS Planet
   actions:
     - theme: brand
       text: 开始
@@ -11,7 +14,7 @@ hero:
       text: 在GitHub上查看
       link: https://github.com/liting-yes/css
 features:
-  - icon: 🐶
+  - icon: 🌈
     title: 纯css实现
     details: 本网站所有效果都不涉及JavaScript
   - icon: 🪶
@@ -20,7 +23,7 @@ features:
   - icon: 🦥
     title: Vitepress驱动
     details: 考虑到Vue组件HTML与CSS不分离更适合呈现，则以Vitepress驱动本网站
-  - icon: 🦭
+  - icon: ⛱️
     title: 开放包容
     details: 如果你有不错的CSS实现灵感，欢迎提交PR
 ---

@@ -3,7 +3,7 @@ import MarkdownPreview from 'vite-plugin-markdown-preview'
 import svgLoader from 'vite-svg-loader'
 
 export default defineConfig({
-  title: 'CSS World',
+  title: 'CSS Planet',
   description: 'A css knowledge collection',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/planet.svg' }],
