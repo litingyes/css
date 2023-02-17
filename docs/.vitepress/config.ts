@@ -50,6 +50,10 @@ export default defineConfig({
                   text: 'shadow',
                   link: '/demo/basic/shadow',
                 },
+                {
+                  text: 'gradient text',
+                  link: '/demo/basic/gradient-text',
+                },
               ],
             },
             {
@@ -125,6 +129,10 @@ export default defineConfig({
                 {
                   text: '阴影',
                   link: '/zh/demo/basic/shadow',
+                },
+                {
+                  text: '渐变文字',
+                  link: '/zh/demo/basic/gradient-text',
                 },
               ],
             },
