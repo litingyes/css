@@ -71,6 +71,10 @@ export default defineConfig({
                   text: 'typewriter',
                   link: '/demo/animation/typewriter',
                 },
+                {
+                  text: 'ripple',
+                  link: '/demo/animation/ripple',
+                },
               ],
             },
             {
@@ -150,6 +154,10 @@ export default defineConfig({
                 {
                   text: '打字机',
                   link: '/zh/demo/animation/typewriter',
+                },
+                {
+                  text: '波纹',
+                  link: '/zh/demo/animation/ripple',
                 },
               ],
             },
