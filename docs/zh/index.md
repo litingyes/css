@@ -14,7 +14,7 @@ hero:
       text: 在GitHub上查看
       link: https://github.com/liting-yes/css
 features:
-  - icon: 🌈
+  - icon: 🪐
     title: 纯css实现
     details: 本网站所有效果都不涉及JavaScript
   - icon: 🪶

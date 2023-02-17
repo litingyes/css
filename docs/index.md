@@ -14,7 +14,7 @@ hero:
       text: View on GitHub
       link: https://github.com/liting-yes/css
 features:
-  - icon: 🌈
+  - icon: 🪐
     title: Pure Css Implementation
     details: All effects on this site do not involve JavaScript
   - icon: 🪶
