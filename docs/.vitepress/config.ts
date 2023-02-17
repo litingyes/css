@@ -5,6 +5,9 @@ import svgLoader from 'vite-svg-loader'
 export default defineConfig({
   title: 'CSS World',
   description: 'A css knowledge collection',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/planet.svg' }],
+  ],
   lang: 'en-US',
   lastUpdated: true,
   cleanUrls: true,
@@ -165,6 +168,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    logo: '/planet.svg',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/liting-yes/css' },
     ],

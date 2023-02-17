@@ -3,6 +3,9 @@ layout: home
 hero:
   name: CSS World
   tagline:  A css knowledge collection
+  image:
+    src: /planet.svg
+    alt: CssPlanet
   actions:
     - theme: brand
       text: Get Started
