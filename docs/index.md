@@ -2,7 +2,8 @@
 layout: home
 hero:
   name: CSS Planet
-  tagline:  A css knowledge collection
+  text: The collection of CSS knowledge
+  tagline: Basic effect, Animation, Interaction, ect.
   image:
     src: /planet.svg
     alt: CSS Planet
@@ -23,7 +24,7 @@ features:
   - icon: 🦥
     title: Vitepress Driver
     details: Considering that the Vue component HTML and CSS are not separated is more suitable for rendering, then Vitepress drives this site
-  - icon: ⛱️
+  - icon: 🍪
     title: Open and Inclusive
     details: If you have a good CSS implementation inspiration, welcome to submit PR
 ---

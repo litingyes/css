@@ -2,7 +2,8 @@
 layout: home
 hero:
   name: CSS 星球
-  tagline:  一个CSS知识合集
+  text: 一个CSS有趣效果的合集🌟
+  tagline: 基本效果，动画，交互, 应有尽有。
   image:
     src: /planet.svg
     alt: CSS Planet
@@ -23,7 +24,7 @@ features:
   - icon: 🦥
     title: Vitepress驱动
     details: 考虑到Vue组件HTML与CSS不分离更适合呈现，则以Vitepress驱动本网站
-  - icon: ⛱️
+  - icon: 🍪
     title: 开放包容
     details: 如果你有不错的CSS实现灵感，欢迎提交PR
 ---
