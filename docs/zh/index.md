@@ -3,7 +3,7 @@ layout: home
 hero:
   name: CSS 星球
   text: 一个CSS有趣效果的合集🌟
-  tagline: 基本效果，动画，交互, 应有尽有。
+  tagline: 基本效果，动画，交互，应有尽有。
   image:
     src: /planet.svg
     alt: CSS Planet
