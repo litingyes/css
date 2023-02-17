@@ -16,6 +16,17 @@
   --vp-home-hero-image-filter: blur(72px);
 }
 
+:root.dark {
+  --vp-c-bg: hsl(222, 47%, 11%);
+  --vp-c-bg-soft: hsl(222, 47%, 15%);
+  --vp-c-bg-soft-down: hsl(222, 47%, 11%);
+  --vp-button-alt-bg: hsl(222, 47%, 11%);
+  --vp-button-alt-hover-bg: hsl(222, 47%, 15%);
+  --vp-c-bg-alt: hsl(222, 47%, 15%);
+  --vp-input-switch-bg-color: hsl(222, 47%, 15%);
+  --vp-c-bg-elv: hsl(222, 47%, 15%);
+}
+
 @for $i from 1 through 6 {
   h#{$i} {
     margin: calc((28 - $i * 4) * 1px) 0;
