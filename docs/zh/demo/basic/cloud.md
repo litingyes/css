@@ -7,7 +7,7 @@
 
 <style>
 .basic-cloud {
-  color: white;
+  color: skyblue;
   margin: 56px 24px;
   width: 120px;
   height: 100px;

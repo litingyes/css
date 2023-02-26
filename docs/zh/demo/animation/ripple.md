@@ -7,7 +7,7 @@
 
 <style>
 .animation-ripple {
-  margin-top: 30px;
+  margin: 64px 0;
   margin-left: 50%;
   translate: -50%;
   display: inline-block;

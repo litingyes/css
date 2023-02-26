@@ -54,6 +54,7 @@
   height: 48px;
   background: hsla(52, 34%, 62%);
   border-radius: 12px;
+  margin-bottom: 12px;
 }
 
 .basic-shadow__stereographic-projection::before {
@@ -65,7 +66,7 @@
   bottom: 0;
   z-index: -1;
   background: hsla(52, 34%, 40%);
-  box-shadow: 0 0 8px 4px hsla(52, 34%, 40%);
+  box-shadow: 0 0 4px 2px hsla(52, 34%, 40%);
   backdrop-filter: blur(12px);
   border-radius: 12px;
   transform: rotateZ(-4deg)
