@@ -72,16 +72,20 @@ export default defineConfig({
                   link: '/demo/animation/horse-racing-light',
                 },
                 {
+                  text: 'ripple',
+                  link: '/demo/animation/ripple',
+                },
+                {
                   text: 'spin',
                   link: '/demo/animation/spin',
                 },
                 {
-                  text: 'typewriter',
-                  link: '/demo/animation/typewriter',
+                  text: 'tiktok',
+                  link: '/demo/animation/tiktok',
                 },
                 {
-                  text: 'ripple',
-                  link: '/demo/animation/ripple',
+                  text: 'typewriter',
+                  link: '/demo/animation/typewriter',
                 },
               ],
             },
@@ -160,12 +164,16 @@ export default defineConfig({
                   link: '/zh/demo/animation/spin',
                 },
                 {
-                  text: '打字机',
-                  link: '/zh/demo/animation/typewriter',
-                },
-                {
                   text: '波纹',
                   link: '/zh/demo/animation/ripple',
+                },
+                {
+                  text: '抖音',
+                  link: '/zh/demo/animation/tiktok',
+                },
+                {
+                  text: '打字机',
+                  link: '/zh/demo/animation/typewriter',
                 },
               ],
             },
