@@ -5,7 +5,7 @@
     "./shims.d.ts"
   ],
   "exclude": [
-    "cache",
-    "dist"
+    "**/cache",
+    "**/dist"
   ]
 }
