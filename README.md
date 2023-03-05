@@ -4,4 +4,6 @@
   </a>
   <h1>CSS Planet(WIP🫥)</h1>
   <p>A CSS knowledge collection.</p>
+  <h2>Statement</h2>
+  <p>Many examples come from other places, such as technical books and technical communities</p>
 </div>
