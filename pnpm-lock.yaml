@@ -20,12 +20,12 @@ importers:
       simple-git-hooks: ^2.8.1
       typescript: ^4.9.5
       vite: ^4.1.4
-      vite-plugin-vue-preview: ^0.3.3
+      vite-plugin-vue-preview: ^0.3.6
       vite-svg-loader: ^4.0.0
       vitepress: 1.0.0-alpha.45
       vue: ^3.2.47
     dependencies:
-      vite-plugin-vue-preview: 0.3.3_vite@4.1.4+vue@3.2.47
+      vite-plugin-vue-preview: 0.3.6_vite@4.1.4+vue@3.2.47
     devDependencies:
       '@antfu/eslint-config': 0.35.3_7kw3g6rralp5ps6mg3uyzz6azm
       '@commitlint/cli': 17.4.4
@@ -6537,8 +6537,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-vue-preview/0.3.3_vite@4.1.4+vue@3.2.47:
-    resolution: {integrity: sha512-+wPEhHu9KtljxTsmKF7CbBxtfvNlsGg4PgxjcLezjRRZIHdcfEI6LPYHk29BziII+OXX4oxaLpRsoZudlzuCHg==}
+  /vite-plugin-vue-preview/0.3.6_vite@4.1.4+vue@3.2.47:
+    resolution: {integrity: sha512-+8SnixvqVDhIZ7T4OAgT9bopLUppyCcNAvhevyEXXx/SVE7fccCYEzWi+Ly1cbqTkIv9R8WWq0yOCDzbVQOcYQ==}
     peerDependencies:
       '@vitejs/plugin-vue': ^4.0.0
       vite: ^4.1.2
@@ -6547,6 +6547,7 @@ packages:
       '@codemirror/autocomplete': 6.4.2
       '@codemirror/commands': 6.2.1
       '@codemirror/lang-vue': 0.1.1
+      '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
       '@codemirror/theme-one-dark': 6.1.1
       '@codemirror/view': 6.9.1
