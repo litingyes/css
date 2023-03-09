@@ -20,12 +20,12 @@ importers:
       simple-git-hooks: ^2.8.1
       typescript: ^4.9.5
       vite: ^4.1.4
-      vite-plugin-vue-preview: ^0.3.6
+      vite-plugin-vue-preview: ^0.4.0
       vite-svg-loader: ^4.0.0
       vitepress: 1.0.0-alpha.45
       vue: ^3.2.47
     dependencies:
-      vite-plugin-vue-preview: 0.3.6_vite@4.1.4+vue@3.2.47
+      vite-plugin-vue-preview: 0.4.0_vite@4.1.4+vue@3.2.47
     devDependencies:
       '@antfu/eslint-config': 0.35.3_7kw3g6rralp5ps6mg3uyzz6azm
       '@commitlint/cli': 17.4.4
@@ -316,7 +316,7 @@ packages:
     dependencies:
       '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/common': 1.0.2
     dev: false
 
@@ -325,12 +325,12 @@ packages:
     dependencies:
       '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/common': 1.0.2
     dev: false
 
-  /@codemirror/lang-css/6.0.2:
-    resolution: {integrity: sha512-4V4zmUOl2Glx0GWw0HiO1oGD4zvMlIQ3zx5hXOE6ipCjhohig2bhWRAasrZylH9pRNTcl1VMa59Lsl8lZWlTzw==}
+  /@codemirror/lang-css/6.1.1:
+    resolution: {integrity: sha512-P6jdNEHyRcqqDgbvHYyC9Wxkek0rnG3a9aVSRi4a7WrjPbQtBTaOmvYpXmm13zZMAatO4Oqpac+0QZs7sy+LnQ==}
     dependencies:
       '@codemirror/autocomplete': 6.4.2
       '@codemirror/language': 6.6.0
@@ -342,11 +342,11 @@ packages:
     resolution: {integrity: sha512-bqCBASkteKySwtIbiV/WCtGnn/khLRbbiV5TE+d9S9eQJD7BA4c5dTRm2b3bVmSpilff5EYxvB4PQaZzM/7cNw==}
     dependencies:
       '@codemirror/autocomplete': 6.4.2
-      '@codemirror/lang-css': 6.0.2
+      '@codemirror/lang-css': 6.1.1
       '@codemirror/lang-javascript': 6.1.4
       '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/common': 1.0.2
       '@lezer/css': 1.1.1
       '@lezer/html': 1.3.3
@@ -357,9 +357,9 @@ packages:
     dependencies:
       '@codemirror/autocomplete': 6.4.2
       '@codemirror/language': 6.6.0
-      '@codemirror/lint': 6.1.1
+      '@codemirror/lint': 6.2.0
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/common': 1.0.2
       '@lezer/javascript': 1.4.1
     dev: false
@@ -379,18 +379,18 @@ packages:
     resolution: {integrity: sha512-cwUd6lzt3MfNYOobdjf14ZkLbJcnv4WtndYaoBkbor/vF+rCNguMPK0IRtvZJG4dsWiaWPcK8x1VijhvSxnstg==}
     dependencies:
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/common': 1.0.2
       '@lezer/highlight': 1.1.3
       '@lezer/lr': 1.3.3
       style-mod: 4.0.0
     dev: false
 
-  /@codemirror/lint/6.1.1:
-    resolution: {integrity: sha512-e+M543x0NVHGayNHQzLP4XByJsvbu/ojY6+0VF2Y4Uu66Rt1nADuxNflZwECLf7gS009smIsptSUa6bUj/U/rw==}
+  /@codemirror/lint/6.2.0:
+    resolution: {integrity: sha512-KVCECmR2fFeYBr1ZXDVue7x3q5PMI0PzcIbA+zKufnkniMBo1325t0h1jM85AKp8l3tj67LRxVpZfgDxEXlQkg==}
     dependencies:
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       crelt: 1.0.5
     dev: false
 
@@ -403,12 +403,12 @@ packages:
     dependencies:
       '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       '@lezer/highlight': 1.1.3
     dev: false
 
-  /@codemirror/view/6.9.1:
-    resolution: {integrity: sha512-bzfSjJn9dAADVpabLKWKNmMG4ibyTV2e3eOGowjElNPTdTkSbi6ixPYHm2u0ADcETfKsi2/R84Rkmi91dH9yEg==}
+  /@codemirror/view/6.9.2:
+    resolution: {integrity: sha512-ci0r/v6aKOSlzOs7/STMTYP3jX/+YMq2dAfAJcLIB6uom4ThtrUlzeuS7GTRGNqJJ+qAJR1vGWfXgu4CO/0myQ==}
     dependencies:
       '@codemirror/state': 6.2.0
       style-mod: 4.0.0
@@ -6537,8 +6537,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-vue-preview/0.3.6_vite@4.1.4+vue@3.2.47:
-    resolution: {integrity: sha512-+8SnixvqVDhIZ7T4OAgT9bopLUppyCcNAvhevyEXXx/SVE7fccCYEzWi+Ly1cbqTkIv9R8WWq0yOCDzbVQOcYQ==}
+  /vite-plugin-vue-preview/0.4.0_vite@4.1.4+vue@3.2.47:
+    resolution: {integrity: sha512-Z8RILQNH7ke3EoiGMWpNad4t/Nee2RJTnC1+rZ0mSS5F3YUo6rss9wNPqQmTxsA3LItgGHSlat3bmTVkItHqLg==}
     peerDependencies:
       '@vitejs/plugin-vue': ^4.0.0
       vite: ^4.1.2
@@ -6550,7 +6550,7 @@ packages:
       '@codemirror/language': 6.6.0
       '@codemirror/state': 6.2.0
       '@codemirror/theme-one-dark': 6.1.1
-      '@codemirror/view': 6.9.1
+      '@codemirror/view': 6.9.2
       vite: 4.1.4_sass@1.58.3
       vue: 3.2.47
     dev: false

@@ -30,7 +30,7 @@
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
   "dependencies": {
-    "vite-plugin-vue-preview": "^0.3.6"
+    "vite-plugin-vue-preview": "^0.4.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
