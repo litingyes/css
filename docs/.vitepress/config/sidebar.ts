@@ -4,6 +4,10 @@ export const sidebarEn = {
       text: 'Basic',
       items: [
         {
+          text: 'bar chart',
+          link: '/demo/basic/bar-chart',
+        },
+        {
           text: 'cloud',
           link: '/demo/basic/cloud',
         },
@@ -79,6 +83,10 @@ export const sidebarZh = {
     {
       text: '基础',
       items: [
+        {
+          text: '柱形图',
+          link: '/zh/demo/basic/bar-chart',
+        },
         {
           text: '云',
           link: '/zh/demo/basic/cloud',
