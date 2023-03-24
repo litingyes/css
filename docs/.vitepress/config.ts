@@ -35,7 +35,7 @@ export default defineConfig({
         nav: [
           {
             text: 'Demo',
-            link: '/demo/basic/cloud',
+            link: '/demo/basic/bar-chart',
           },
         ],
         sidebar: sidebarEn,
@@ -53,7 +53,7 @@ export default defineConfig({
         nav: [
           {
             text: '演示',
-            link: '/zh/demo/basic/cloud',
+            link: '/zh/demo/basic/bar-chart',
           },
         ],
         sidebar: sidebarZh,
