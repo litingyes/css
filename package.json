@@ -39,7 +39,7 @@
     "@commitlint/cz-commitlint": "^17.4.4",
     "@release-it/conventional-changelog": "^5.1.1",
     "@tsconfig/node-lts-strictest": "^18.12.1",
-    "@vueuse/core": "^9.13.0",
+    "@vueuse/core": "^10.1.2",
     "commitizen": "^4.3.0",
     "eslint": "^8.34.0",
     "inquirer": "^8.2.5",
