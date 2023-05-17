@@ -16,6 +16,10 @@ export const sidebarEn = {
           link: '/demo/basic/dazzle',
         },
         {
+          text: 'forward & reverse rotation',
+          link: '/demo/basic/forward-and-reverse-rotation',
+        },
+        {
           text: 'palette',
           link: '/demo/basic/palette',
         },
@@ -94,6 +98,10 @@ export const sidebarZh = {
         {
           text: '炫彩',
           link: '/zh/demo/basic/dazzle',
+        },
+        {
+          text: '正反相消旋转',
+          link: '/zh/demo/basic/forward-and-reverse-rotation',
         },
         {
           text: '色盘',
