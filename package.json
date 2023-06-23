@@ -25,12 +25,12 @@
     "preview": "vitepress preview docs",
     "lint": "eslint .",
     "format": "eslint --fix .",
-    "commit": "git-cz",
+    "commit": "git add . && git-cz",
     "release": "release-it",
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
   "dependencies": {
-    "vite-plugin-vue-preview": "^1.0.2"
+    "vite-plugin-vue-preview": "^1.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.3",

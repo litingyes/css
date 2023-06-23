@@ -1,6 +1,6 @@
 # 动画效果: 抖音
 
-```vue preview outputBgColor=black
+```vue preview
 <template>
   <span class="animation-tiktok">TikTok</span>
 </template>
