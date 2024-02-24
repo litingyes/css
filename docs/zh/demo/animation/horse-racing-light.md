@@ -1,18 +1,19 @@
 # 动画效果: 走马灯
 
-```vue preview
-<template>
-  <div class="interate-animation-horse-racing-light">
-    Horse Racing Light
-    <div class="interate-animation-horse-racing-light__border-top" />
-    <div class="interate-animation-horse-racing-light__border-right" />
-    <div class="interate-animation-horse-racing-light__border-bottom" />
-    <div class="interate-animation-horse-racing-light__border-left" />
-  </div>
-</template>
+::: sandboxrun
 
-<style scoped>
-.interate-animation-horse-racing-light {
+```html
+<div class="horse-racing-light">
+  Horse Racing Light
+  <div class="horse-racing-light__border-top"></div>
+  <div class="horse-racing-light__border-right"></div>
+  <div class="horse-racing-light__border-bottom"></div>
+  <div class="horse-racing-light__border-left"></div>
+</div>
+```
+
+```css
+.horse-racing-light {
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -23,7 +24,7 @@
   box-sizing: border-box;
 }
 
-.interate-animation-horse-racing-light__border-top {
+.horse-racing-light__border-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -42,7 +43,7 @@
   }
 }
 
-.interate-animation-horse-racing-light__border-right {
+.horse-racing-light__border-right {
   position: absolute;
   top: 0;
   right: 0;
@@ -61,7 +62,7 @@
   }
 }
 
-.interate-animation-horse-racing-light__border-bottom {
+.horse-racing-light__border-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -80,7 +81,7 @@
   }
 }
 
-.interate-animation-horse-racing-light__border-left {
+.horse-racing-light__border-left {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,5 +99,6 @@
     transform: translateY(-100%);
   }
 }
-</style>
 ```
+
+:::

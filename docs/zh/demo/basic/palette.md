@@ -1,12 +1,13 @@
 # 基础: 色盘
 
-```vue preview
-<template>
-  <div class="basic-palette" />
-</template>
+::: sandboxrun
 
-<style>
-.basic-palette {
+```html
+<div class="palette" />
+```
+
+```css
+.palette {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -14,5 +15,6 @@
     radial-gradient(closest-side, gray, transparent),
     conic-gradient(red, magenta, blue, aqua, lime, yellow, red);
 }
-</style>
 ```
+
+:::

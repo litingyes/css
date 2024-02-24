@@ -1,12 +1,13 @@
 # 动画: 波纹
 
-```vue preview
-<template>
-  <span class="animation-ripple" />
-</template>
+::: sandboxrun
 
-<style>
-.animation-ripple {
+```html
+<span class="ripple" />
+```
+
+```css
+.ripple {
   margin: 64px 0;
   margin-left: 50%;
   translate: -50%;
@@ -17,7 +18,7 @@
   background: hsl(356, 100%, 63%);
 }
 
-.animation-ripple::before {
+.ripple::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -38,5 +39,6 @@
     transform: scale(3);
   }
 }
-</style>
 ```
+
+:::

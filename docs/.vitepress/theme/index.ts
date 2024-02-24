@@ -1,13 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
+import type { Theme } from 'vitepress'
 import './index.scss'
-import { VuePreview } from 'vite-plugin-vue-preview'
-import 'vite-plugin-vue-preview/style.css'
+import { SandBoxRun } from '@sandboxrun/vue'
+import '@sandboxrun/vue/style'
 
 export default {
-  ...DefaultTheme,
-  // @ts-expect-error ctx type
-  enhanceApp(ctx) {
-    DefaultTheme.enhanceApp(ctx)
-    ctx.app.component('VuePreview', VuePreview)
+  extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('SandBoxRun', SandBoxRun)
   },
-}
+} satisfies Theme

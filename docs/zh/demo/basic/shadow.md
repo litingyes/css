@@ -2,13 +2,14 @@
 
 ## 长投影
 
-```vue preview
-<template>
-  <div class="basic-shadow__long-projection " />
-</template>
+::: sandboxrun
 
-<style>
-.basic-shadow__long-projection {
+```html
+<div class="shadow__long-projection" />
+```
+
+```css
+.shadow__long-projection {
   width: 96px;
   height: 96px;
   margin-bottom: 64px;
@@ -16,7 +17,7 @@
   position: relative;
 }
 
-.basic-shadow__long-projection::before {
+.shadow__long-projection::before {
   position: absolute;
   top: 96px;
   width: 96px;
@@ -27,7 +28,7 @@
    background: linear-gradient(180deg, rgba(0, 0, 0, .3), transparent);
 }
 
-.basic-shadow__long-projection::after {
+.shadow__long-projection::after {
   position: absolute;
   left: 96px;
   width: 44px;
@@ -37,18 +38,21 @@
   transform: skewY(60deg);
   background: linear-gradient(to right,rgba(0, 0, 0, .3), transparent);
 }
-</style>
 ```
+
+:::
 
 ## 立体投影
 
-```vue preview
-<template>
-  <div class="basic-shadow__stereographic-projection" />
-</template>
 
-<style scoped>
-.basic-shadow__stereographic-projection {
+::: sandboxrun
+
+```html
+  <div class="shadow__stereographic-projection" />
+```
+
+```css
+.shadow__stereographic-projection {
   position: relative;
   width: 200px;
   height: 48px;
@@ -57,7 +61,7 @@
   margin-bottom: 12px;
 }
 
-.basic-shadow__stereographic-projection::before {
+.shadow__stereographic-projection::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -71,20 +75,22 @@
   border-radius: 12px;
   transform: rotateZ(-4deg)
 }
-</style>
 ```
+
+:::
 
 ## 浮雕
 
-```vue preview
-<template>
-  <span class="basic-shadow__relief-sculpture">
+::: sandboxrun
+
+```html
+  <span class="shadow__relief-sculpture">
     shadow
   </span>
-</template>
+```
 
-<style scoped>
-.basic-shadow__relief-sculpture {
+```css
+.shadow__relief-sculpture {
   font-size: 32px;
   font-weight: bold;
   padding: 8px;
@@ -92,5 +98,6 @@
   color: #BF9A6C;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
 }
-</style>
 ```
+
+:::

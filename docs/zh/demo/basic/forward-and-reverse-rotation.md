@@ -1,16 +1,17 @@
 # 基础: 正反相消旋转
 
-```vue preview
-<template>
-  <div class="basic-forward">
-    <div class="basic-reverse">
-      正反相消旋转
-    </div>
-  </div>
-</template>
+::: sandboxrun
 
-<style>
-.basic-forward {
+```html
+<div class="forward">
+  <div class="reverse">
+    Forward and Reverse Rotation
+  </div>
+</div>
+```
+
+```css
+.forward {
     transform-style: preserve-3d;
     perspective: 500px;
     width: 128px;
@@ -22,7 +23,7 @@
     animation: rotate 5s linear infinite;
 }
 
-.basic-reverse {
+.reverse {
     box-sizing: border-box;
     transform-style: preserve-3d;
     perspective: 500px;
@@ -47,5 +48,6 @@
         transform: rotateX(0deg) rotateZ(var(--degZ));
     }
 }
-</style>
 ```
+
+:::

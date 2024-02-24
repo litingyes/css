@@ -1,12 +1,13 @@
 # 基础: 云
 
-```vue preview
-<template>
-  <div class="basic-cloud" />
-</template>
+::: sandboxrun
 
-<style>
-.basic-cloud {
+```html
+<div class="cloud" />
+```
+
+```css
+.cloud {
   color: skyblue;
   margin: 56px 24px;
   width: 120px;
@@ -20,5 +21,6 @@
     90px -20px,
     30px -40px;
 }
-</style>
 ```
+
+:::

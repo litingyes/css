@@ -1,12 +1,13 @@
 # Animation: Spin
 
-```vue preview
-<template>
-  <div class="animation-spin" />
-</template>
+::: sandboxrun
 
-<style scoped>
-.animation-spin {
+```html
+<div class="spin" />
+```
+
+```css
+.spin {
   margin: 24px;
   width: 4px;
   height: 4px;
@@ -32,5 +33,6 @@
     transform: rotate(360deg);
   }
 }
-</style>
 ```
+
+:::

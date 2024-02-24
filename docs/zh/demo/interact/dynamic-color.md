@@ -1,23 +1,24 @@
 # 交互效果: 动态颜色
 
-```vue preview
-<template>
-  <p class="interate-dynamic-color">
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-    Dynamic Color - Dynamic Color - Dynamic Color -
-  </p>
-</template>
+::: sandboxrun
 
-<style scoped>
-.interate-dynamic-color {
+```html
+<p class="dynamic-color">
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+  Dynamic Color - Dynamic Color - Dynamic Color -
+</p>
+```
+
+```css
+.dynamic-color {
     display: inline;
     font-size: 16px;
     line-height: 20px;
@@ -33,8 +34,9 @@
     transition: 0.7s all linear;
 }
 
-.interate-dynamic-color:hover {
+.dynamic-color:hover {
     background-size: 0 100%, 100% 100%;
 }
-</style>
 ```
+
+:::

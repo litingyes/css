@@ -1,14 +1,15 @@
 # Interact: Dynamic Background Color
 
-```vue preview
-<template>
-  <button class="interate-dynamic-background-color">
-    Dynamic Background Color
-  </button>
-</template>
+::: sandboxrun
 
-<style scoped>
-.interate-dynamic-background-color {
+```html
+<button class="dynamic-background-color">
+  Dynamic Background Color
+</button>
+```
+
+```css
+.dynamic-background-color {
   position: relative;
   z-index: 1;
   padding: 8px;
@@ -20,7 +21,7 @@ background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9
   border-radius: 8px;
 }
 
-.interate-dynamic-background-color::before {
+.dynamic-background-color::before {
   position: absolute;
   z-index: -1;
   top: 0;
@@ -33,9 +34,10 @@ background: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9
   backdrop-filter: blur(48px);
 }
 
-.interate-dynamic-background-color:hover::before {
+.dynamic-background-color:hover::before {
   width: 100%;
   transition: width 0.3s ease-out;
 }
-</style>
 ```
+
+:::

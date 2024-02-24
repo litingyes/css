@@ -1,16 +1,17 @@
 # Animation: Typewriter
 
-```vue preview
-<template>
-  <div class="animation-typewriter__container">
-    <div class="animation-typewriter">
-      CSS Planet
-    </div>
-  </div>
-</template>
+::: sandboxrun
 
-<style scoped>
-.animation-typewriter {
+```html
+<div class="typewriter__container">
+  <div class="typewriter">
+    CSS Planet
+  </div>
+</div>
+```
+
+```css
+.typewriter {
   font-size: 24px;
   font-weight: 700;
   font-family: monospace;
@@ -35,5 +36,6 @@
     border-right: transparent;
   }
 }
-</style>
 ```
+
+:::

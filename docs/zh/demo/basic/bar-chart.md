@@ -1,16 +1,17 @@
 # 基础: 柱形图
 
-```vue preview
-<template>
-  <div class="basic-bar-chart__container">
-    <div class="basic-bar-chart">
-      <div class="basic-bar-chart__prism" />
+::: sandboxrun
+
+```html
+  <div class="bar-chart__container">
+    <div class="bar-chart">
+      <div class="bar-chart__prism" />
     </div>
   </div>
-</template>
+```
 
-<style>
-.basic-bar-chart__container {
+```css
+.bar-chart__container {
   --height: 200px;
   height: var(--height);
   display: flex;
@@ -19,7 +20,7 @@
   margin-bottom: 24px;
 }
 
-.basic-bar-chart {
+.bar-chart {
   position: absolute;
   width: 36px;
   height: 30%;
@@ -27,12 +28,12 @@
   transition: all 1s;
 }
 
-.basic-bar-chart:hover {
+.bar-chart:hover {
   height: 80%;
 }
 
-.basic-bar-chart::before,
-.basic-bar-chart::after {
+.bar-chart::before,
+.bar-chart::after {
   content: "";
   position: absolute;
   left: 0;
@@ -42,24 +43,25 @@
   background: red;
 }
 
-.basic-bar-chart::before {
+.bar-chart::before {
   top: calc(36px * -0.2);
   background: #f7c978;
   z-index: 2;
 }
 
-.basic-bar-chart::after {
+.bar-chart::after {
   bottom: calc(36px * -0.2);
   background: #3f51b1;
   z-index: -1;
 }
 
-.basic-bar-chart__prism {
+.bar-chart__prism {
   height: 100%;
   width: 18px;
   position: absolute;
   left: 9px;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1)
 }
-</style>
 ```
+
+:::
