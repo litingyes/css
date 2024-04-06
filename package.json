@@ -1,8 +1,6 @@
 {
   "name": "@liting-yes/css",
   "type": "module",
-  "version": "0.0.0",
-  "private": false,
   "description": "A css knowledge collection",
   "publishConfig": {
     "access": "public",
@@ -26,7 +24,6 @@
     "lint": "eslint .",
     "format": "eslint --fix .",
     "commit": "git add . && git-cz",
-    "release": "release-it",
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
   "dependencies": {
@@ -37,14 +34,12 @@
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
     "@commitlint/cz-commitlint": "^17.8.1",
-    "@release-it/conventional-changelog": "^5.1.1",
     "@tsconfig/node-lts-strictest": "^18.12.1",
     "@vueuse/core": "^10.8.0",
     "commitizen": "^4.3.0",
     "eslint": "^8.56.0",
     "inquirer": "^8.2.6",
     "lint-staged": "^13.3.0",
-    "release-it": "^15.11.0",
     "sass": "^1.71.1",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3",
