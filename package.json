@@ -23,7 +23,7 @@
     "preview": "vitepress preview docs",
     "lint": "eslint .",
     "format": "eslint --fix .",
-    "commit": "git add . && git-cz",
+    "commit": "git-cz",
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
   "dependencies": {
