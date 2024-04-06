@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/node-lts-strictest/tsconfig.json",
+  "extends": ["@tsconfig/node-lts-strictest/tsconfig.json"],
   "include": [
     "./docs/.vitepress/theme",
     "./shims.d.ts"

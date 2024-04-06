@@ -27,26 +27,26 @@
     "prepare": "git config core.hooksPath .git/hooks/ && npx simple-git-hooks"
   },
   "dependencies": {
-    "@sandboxrun/vue": "0.2.1"
+    "@sandboxrun/vue": "0.4.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
-    "@commitlint/cz-commitlint": "^17.8.1",
+    "@antfu/eslint-config": "^2.12.2",
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
+    "@commitlint/cz-commitlint": "^19.2.0",
     "@tsconfig/node-lts-strictest": "^18.12.1",
-    "@vueuse/core": "^10.8.0",
+    "@vueuse/core": "^10.9.0",
     "commitizen": "^4.3.0",
-    "eslint": "^8.56.0",
-    "inquirer": "^8.2.6",
-    "lint-staged": "^13.3.0",
-    "sass": "^1.71.1",
-    "simple-git-hooks": "^2.9.0",
-    "typescript": "^5.3.3",
-    "vite": "^4.5.2",
-    "vite-svg-loader": "^4.0.0",
-    "vitepress": "1.0.0-rc.44",
-    "vue": "^3.4.19"
+    "eslint": "^9.0.0",
+    "inquirer": "^9.2.17",
+    "lint-staged": "^15.2.2",
+    "sass": "^1.74.1",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8",
+    "vite-svg-loader": "^5.1.0",
+    "vitepress": "1.0.2",
+    "vue": "^3.4.21"
   },
   "config": {
     "commitizen": {
